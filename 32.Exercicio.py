@@ -28,5 +28,5 @@ def calcula_fatorial(numero):
 
 numero = pergunta_numero()
 resultado,fatorial_editada = calcula_fatorial(numero)
-
-print(f"{numero}! = {fatorial_editada}")
+print(f"Fatorial de: {numero}")
+print(f"{numero}! = {fatorial_editada} = {resultado}")
